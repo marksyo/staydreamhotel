@@ -1019,7 +1019,12 @@ label {
   background-position: center center;
   background-size: cover;
 }
-
+.slider-height1 {
+  min-height: 250px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
 .btn1 {
   padding: 25px 0px;
 }
