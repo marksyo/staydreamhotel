@@ -5226,3 +5226,20 @@ button[aria-expanded="true"] .fa {
 .contact-section p {
   color: #000000;
 }
+
+
+.profile-img {
+
+  margin-top: 50px;
+}
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .profile-img {
+
+    margin-top: 100px;
+  }
+}
+
+.faq ul li a {
+  padding: 10px 20px;
+  line-height: 40px;
+}
