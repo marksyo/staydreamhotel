@@ -590,21 +590,21 @@ label {
 }
 
 .customar-padding {
-  padding-top: 260px;
-  padding-bottom: 93px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .customar-padding {
-    padding-top: 160px;
-    padding-bottom: 93px;
+    padding-top: 30px;
+    padding-bottom: 30px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .customar-padding {
-    padding-top: 160px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
@@ -612,33 +612,33 @@ label {
   .customar-padding {
     padding-left: 20px;
     padding-right: 20px;
-    padding-top: 160px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
 @media (max-width: 767px) {
   .customar-padding {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 
 .dining-padding-top {
-  padding-top: 200px;
+  padding-top: 100px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .dining-padding-top {
-    padding-top: 100px;
+    padding-top: 40px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .dining-padding-top {
-    padding-top: 100px;
+    padding-top: 30px;
   }
 }
 
@@ -830,13 +830,13 @@ label {
 }
 
 .r-padding1 {
-  padding-top: 100px;
+  padding-top: 30px;
   padding-bottom: 100px;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .r-padding1 {
-    padding-top: 100px;
+    padding-top: 30px;
     padding-bottom: 100px;
   }
 }
@@ -851,7 +851,7 @@ label {
 @media (max-width: 767px) {
   .r-padding1 {
     padding-top: 50px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
   }
 }
 
@@ -867,19 +867,19 @@ label {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header-area {
-    padding: 18px 0;
+    padding: 5px 0;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .header-area {
-    padding: 18px 0;
+    padding: 5px 0;
   }
 }
 
 @media (max-width: 767px) {
   .header-area {
-    padding: 18px 0;
+    padding: 5px 0;
   }
 }
 
@@ -1014,7 +1014,7 @@ label {
 }
 
 .slider-height2 {
-  min-height: 390px;
+  min-height: 450px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -1427,7 +1427,7 @@ label {
   color: #dca73a;
   font-size: 14px;
   display: block;
-  margin-bottom: 13px;
+  margin-top: 10px;
 }
 
 .customer-caption h2 {
@@ -1506,7 +1506,7 @@ label {
   color: #0e19c7;
   line-height: 28px;
   font-size: 15px;
-  margin-bottom: 52px;
+  margin-bottom: 20px;
   padding-right: 26px;
 }
 
@@ -2057,6 +2057,7 @@ label {
   color: #767676;
   font-size: 16px;
   text-transform: capitalize;
+  padding-left: 10px;
 }
 
 /* Homepage1 Testimonial */
@@ -2240,7 +2241,7 @@ label {
   display: inline-block;
   line-height: 40px;
   text-align: center;
-  color: #949eb2;
+  color: #fb176d;
   margin-right: 5px;
   transition: .3s linear;
 }
@@ -3356,7 +3357,7 @@ p {
   font-size: 16px;
   font-weight: 400;
   line-height: 30px;
-  color: #909092;
+  color: #222222;
   margin-bottom: 13px;
   font-family: "Noto Serif", serif;
 }
@@ -3504,7 +3505,7 @@ h3 {
 }
 
 .contact-info .media-body p {
-  color: #8a8a8a;
+  color: #222222;
 }
 
 /*=================== contact banner end ====================*/
@@ -3557,13 +3558,13 @@ h3 {
 
 @media (max-width: 991px) {
   .contact-section {
-    padding: 70px 0 40px;
+    padding: 30px 0 40px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .contact-section {
-    padding: 80px 0 50px;
+    padding: 30px 0 50px;
   }
 }
 
@@ -5100,7 +5101,7 @@ a {
 }
 
 .border-botline {
-  border-bottom: 3px solid #000;
+  border-bottom: 3px solid #0a58ca;
 }
 
 
@@ -5175,8 +5176,9 @@ sp-h2:after {
   box-shadow: 0px 7px 24px -19px rgba(0, 0, 0, 0.32);
 }
 
-.myaccordion .btn-link .icon {
+.btn-link .icon {
   width: 60px;
+  min-width: 60px;
   height: 60px;
   z-index: 0;
   background: #37c46f;
@@ -5187,6 +5189,12 @@ sp-h2:after {
   -ms-flex-align: center !important;
   align-items: center !important;
 
+}
+
+.myaccordion {
+  margin: 0 auto;
+  border-radius: 0;
+  overflow: hidden;
 }
 
 .myaccordion .card-header {
@@ -5202,6 +5210,16 @@ sp-h2:after {
   font-weight: 400;
   color: #007bff;
   text-decoration: none;
+}
+
+.myaccordion .card,
+.myaccordion .card:last-child .card-header {
+  border: none;
+  background: transparent;
+}
+
+.myaccordion .card {
+  margin-bottom: 20px;
 }
 
 button[aria-expanded="true"] {
@@ -5232,6 +5250,7 @@ button[aria-expanded="true"] .fa {
 
   margin-top: 50px;
 }
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .profile-img {
 
@@ -5242,4 +5261,14 @@ button[aria-expanded="true"] .fa {
 .faq ul li a {
   padding: 10px 20px;
   line-height: 40px;
+}
+
+.features ul {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.footer-area p {
+  color: #ffffff;
 }
