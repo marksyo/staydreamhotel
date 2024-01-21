@@ -1840,7 +1840,7 @@ label {
 
 @media (max-width: 767px) {
   .font-back-tittle .archivment-front h3 {
-    font-size: 37px;
+    font-size: 30px;
   }
 }
 
@@ -2227,6 +2227,7 @@ label {
 
 .footer-area .footer-logo img {
   margin-bottom: 32px;
+  width: 100%;
 }
 
 .footer-area .footer-social {
@@ -4974,7 +4975,8 @@ h6 {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: start;
-  align-items: flex-start
+  align-items: flex-start;
+  padding-top: 10px;
 }
 
 .media-body {
@@ -5070,7 +5072,7 @@ a {
 }
 
 .u-text-2 {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 700;
   margin: 0 auto;
   color: #f95911 !important;
