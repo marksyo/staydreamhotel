@@ -1425,18 +1425,19 @@ label {
 
 .customer-caption span {
   color: #212529;
-  font-size: 14px;
+  font-size: 18px;
   display: block;
   margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .customer-caption h2 {
   color: #112e41;
   font-size: 37px;
   line-height: 1.2;
-  font-weight: 600;
+  font-weight: 800;
   margin-bottom: 32px;
-  font-family: 'Noto Serif', serif;
+  /* font-family: 'Noto Serif', serif; */
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
