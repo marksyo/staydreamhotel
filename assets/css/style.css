@@ -3357,12 +3357,12 @@ li {
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 30px;
   color: #222222;
   margin-bottom: 13px;
-  font-family: "Noto Serif", serif;
+  /* font-family: "Noto Serif", serif; */
 }
 
 label {
@@ -5074,7 +5074,7 @@ a {
 }
 
 .u-text-2 {
-  font-size: 28px;
+  font-size: 26px;
   font-weight: 700;
   margin: 0 auto;
   color: #f95911 !important;
