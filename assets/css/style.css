@@ -965,7 +965,7 @@ label {
   position: absolute;
   width: 100%;
   height: 2px;
-  bottom: 0;
+  bottom: 10px;
   left: 0;
   background-color: #2dc997;
   visibility: hidden;
@@ -4772,6 +4772,7 @@ h6 {
 
 .header-menu {
   margin-left: 5px;
+  position: relative; /* 追加: ドロップダウンメニューの位置を親要素に対して相対的に配置 */
 }
 
 .header-menu:before {
@@ -4834,8 +4835,10 @@ h6 {
 
 .header-dropdown ul {
   position: absolute;
-  top: 100px;
-  left: 120px;
+  /* top: 100px;
+  left: 120px; */
+  top: 100%; /* 変更: 上からの位置を親要素の下に設定 */
+  left: 0; /* 変更: 左端に揃える */
   z-index: 1150;
   /* min-width: 100%; */
   margin: 0;
