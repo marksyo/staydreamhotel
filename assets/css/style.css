@@ -5271,6 +5271,10 @@ button[aria-expanded="true"] .fa {
   padding: 10px 20px;
   line-height: 40px;
 }
+.features{
+  /* width: 100%; */
+  margin:auto
+}
 
 .features ul {
   font-weight: 600;
@@ -5285,8 +5289,14 @@ button[aria-expanded="true"] .fa {
 .box_voice {
   position: relative;
   padding: 30px 30px;
-  text-align: center;
+  /* text-align: center; */
   margin-bottom: 30px;
+  margin: 0 auto; 
+  /* 上下の余白を0に、左右の余白をautoで中央寄せ */
+
+  /* width: 300px; */
+  display: flex;
+  align-items: center; /* 垂直方向の中央揃え */
 }
 
 .box_voice:before {
@@ -5311,4 +5321,9 @@ button[aria-expanded="true"] .fa {
   border-bottom: 2px solid #ff7364;
   border-right: 2px solid #ff7364;
   margin: 0;
+}
+
+.h_center{
+ text-align: center; 
+ 
 }
