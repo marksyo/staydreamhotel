@@ -4798,7 +4798,7 @@ h6 {
   .header-dropdown:hover .header-menu:before,
   .header-dropdown:hover ul {
     top: 20%;
-    left: 70%;
+    left: -70%;
   }
 }
 
