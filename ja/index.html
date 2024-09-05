@@ -35,14 +35,22 @@
   <link rel="stylesheet" href="../assets/css/style.css">
   <link rel="stylesheet" href="../assets/css/responsive.css">
   <!-- Google Tag Manager -->
-  <script>(function (w, d, s, l, i) {
-      w[l] = w[l] || []; w[l].push({
-        'gtm.start':
-          new Date().getTime(), event: 'gtm.js'
-      }); var f = d.getElementsByTagName(s)[0],
-        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MMMKLQBC');</script>
+  <script>
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-MMMKLQBC');
+  </script>
   <!-- End Google Tag Manager -->
 </head>
 
@@ -322,11 +330,44 @@
             </div>
           </div>
         </div>
-        <div class="row justify-content-center">
-          <div class="room-btn pt-70">
-            <a href="rooms.html" class="btn view-btn1">View more <i class="ti-angle-right"></i> </a>
+
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-md-6">
+
+            <div class="single-room mb-50">
+              <div class="room-img">
+                <img src="../assets/img/gallery/7.jpg" alt>
+              </div>
+              <div class="room-caption">
+                <h3>1Fシャワー室</h3>
+                <div class="per-night">
+                  <span>窓が開いてシャワー可</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6">
+
+            <div class="single-room mb-50">
+              <div class="room-img">
+                <img src="../assets/img/gallery/21.JPG" alt>
+              </div>
+              <div class="room-caption">
+                <h3>トイレ</h3>
+                <div class="per-night">
+                  <span>温水洗浄便座　２つある</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="room-btn pt-70">
+          <a href="rooms.html" class="btn view-btn1">View more <i class="ti-angle-right"></i> </a>
+        </div>
+      </div>
       </div>
     </section>
 
